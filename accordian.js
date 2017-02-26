@@ -9,13 +9,18 @@ window.addEventListener("load", function() {
     element.addEventListener ("click", function() {
       
       var accordianSectionTag = element.nextElementSibling
-      
+
+      if (currentAccordianActiveSection.length === 0) {
+        // changes the tag `section` class to 'accordian-section-active'
+        accordianSectionTag.className = "accordian-section-active"
+        currentAccordianActiveSection = accordianSectionTag
+       } 
+
       if (currentAccordianActiveSection.length !== 0) {
         currentAccordianActiveSection.className = "accordian-section"
-      }  
-      // changes `section` tag class to 'accordian-section-active'
-      accordianSectionTag.className = "accordian-section-active"
-      currentAccordianActiveSection = accordianSectionTag
+        accordianSectionTag.className = "accordian-section-active"
+        currentAccordianActiveSection = accordianSectionTag
+      }
     })
   }
 
