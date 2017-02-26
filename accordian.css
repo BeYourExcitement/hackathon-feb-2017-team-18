@@ -1,0 +1,34 @@
+
+/*
+    primary hover - brighter blue = #45c5ea
+    primary active - darker blue = #379fbc
+    inactive/disabled elements - light gray = #afafaf
+    accordian - darker gray = #24282c
+*/
+
+
+.accordian {
+  width: 40%;
+  border: 1px solid #24282c;
+}
+
+.accordian h3 {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: #24282c;
+  color: #afafaf;
+}
+
+
+
+.accordian-section {
+  display: none;
+
+}
+
+.accordian-section-active {
+  display: block;
+  border-top: 4px solid #45c5ea;
+
+}
