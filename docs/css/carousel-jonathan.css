@@ -1,28 +1,19 @@
-/*Carousel by Jonathan Christian @BeYourExcitement - Project is not finished*/
+/*Carousel by Jonathan Christian @BeYourExcitement*/
 
 #carousel-container {
   margin: 10px 0;
- text-align: center;
+  text-align: center;
 }
 
 .centerpiece-container {
   position: relative;
 }
 
-.centerpiece-image-containter {
-}
-
-.centerpiece-image {
-  position: absolute;
-}
-
 .centerpiece-image img {
-/*  visibility: hidden;  */
   display: none;
 }
 
 .centerpiece-image-active {
-  visibility: visible;
   position: relative;
 }
 
