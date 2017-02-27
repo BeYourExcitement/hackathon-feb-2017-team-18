@@ -1,8 +1,6 @@
 
 window.addEventListener("load", function() {
   
-  // ********** encapsulate event in one variable for production ******************
-  
   var currentAccordianActiveSection = ""
 
   var accordianClickEventHandler = function(element) {

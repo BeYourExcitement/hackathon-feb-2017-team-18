@@ -1,27 +1,33 @@
 
-/*
-    primary hover - brighter blue = #45c5ea
-    primary active - darker blue = #379fbc
-    inactive/disabled elements - light gray = #afafaf
-    accordian - darker gray = #24282c
-*/
-
 
 .accordian {
-  width: 40%;
+  width: 100%;
   border: 1px solid #24282c;
 }
 
-.accordian h3 {
+.section-header {
   margin: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+  padding-left: 5px;
   background-color: #24282c;
   color: #afafaf;
 }
 
-.accordian h3:hover {
+.section-header-active {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: #afafaf;
+  color: #24282c; */
+}
+
+
+.section-header:hover {
   text-decoration: underline;
+  background-color: #45c5ea;
+  color: #24282c;
 }
 
 .accordian-section {
@@ -32,5 +38,4 @@
 .accordian-section-active {
   display: block;
   border-top: 4px solid #45c5ea;
-
 }

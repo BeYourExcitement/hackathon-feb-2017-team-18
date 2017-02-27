@@ -1,8 +1,49 @@
 
-#connected {
-  color: red;
-}
 
 #carousel-container {
+ text-align: center;
+}
+
+.centerpiece-container {
+  position: relative;
+}
+
+.centerpiece-image-containter {
   
+}
+
+.centerpiece-image {
+  position: absolute;
+}
+
+.centerpiece-image img {
+  visibility: hidden;
+}
+
+.centerpiece-image-active {
+  visibility: visible;
+  position: relative;
+
+}
+
+.centerpiece-image-active img {
+  width: 100%;
+}
+
+.thumbnail-container {
+  margin-top: 10px;
+  background-color: #24282c;
+  padding-top: 10px;
+  padding-bottom: 6px;
+}
+
+.thumbnail {
+  display: inline-block;
+  margin: 0 4px; 
+  border: 2px solid #379fbc; 
+  border-radius: 12px;
+}
+
+.thumbnail img {
+  border-radius: 10px;
 }
