@@ -1,6 +1,7 @@
-
+/*Carousel by Jonathan Christian @BeYourExcitement - Project is not finished*/
 
 #carousel-container {
+  margin: 10px 0;
  text-align: center;
 }
 
@@ -9,7 +10,6 @@
 }
 
 .centerpiece-image-containter {
-  
 }
 
 .centerpiece-image {
@@ -23,18 +23,19 @@
 .centerpiece-image-active {
   visibility: visible;
   position: relative;
-
 }
 
 .centerpiece-image-active img {
-  width: 100%;
+  width: 50%;
 }
 
 .thumbnail-container {
+  width: 60%;
+  display: inline-block;
+  border-radius: 15px;
   margin-top: 10px;
   background-color: #24282c;
-  padding-top: 10px;
-  padding-bottom: 6px;
+  padding: 8px 0;
 }
 
 .thumbnail {
@@ -46,4 +47,5 @@
 
 .thumbnail img {
   border-radius: 10px;
+  margin-bottom: -6px;
 }

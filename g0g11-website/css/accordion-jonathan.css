@@ -1,8 +1,10 @@
+/*accordion by Jonathan Christian @BeYourExcitement - Project is not finished*/
 
-
-.accordian {
-  width: 100%;
-  border: 1px solid #24282c;
+.accordion {
+  width: 30%;
+  border: 3px solid #24282c;
+  border-radius: 6px;
+  text-align: center;
 }
 
 .section-header {
@@ -20,9 +22,8 @@
   padding-bottom: 5px;
   padding-left: 5px;
   background-color: #afafaf;
-  color: #24282c; */
+  color: #24282c;
 }
-
 
 .section-header:hover {
   text-decoration: underline;
@@ -30,12 +31,12 @@
   color: #24282c;
 }
 
-.accordian-section {
+.accordion-section {
   display: none;
-
 }
 
-.accordian-section-active {
+.accordion-section-active {
   display: block;
   border-top: 4px solid #45c5ea;
+  padding: 0 8px;
 }
