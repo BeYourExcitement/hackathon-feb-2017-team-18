@@ -1,0 +1,91 @@
+/*------------------------------------------------*/
+/*Carousel by Jonathan Christian @BeYourExcitement*/
+/*------------------------------------------------*/
+
+#carousel-container {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.centerpiece-container {
+  position: relative;
+}
+
+.centerpiece-image img {
+  display: none;
+}
+
+.centerpiece-image-active {
+  position: relative;
+}
+
+.centerpiece-image-active img {
+  width: 50%;
+}
+
+.thumbnail-container {
+  width: 60%;
+  display: inline-block;
+  border-radius: 15px;
+  margin-top: 10px;
+  background-color: #24282c;
+  padding: 8px 0;
+}
+
+.thumbnail {
+  display: inline-block;
+  margin: 0 4px; 
+  border: 2px solid #379fbc; 
+  border-radius: 12px;
+}
+
+.thumbnail img {
+  border-radius: 10px;
+  margin-bottom: -6px;
+}
+
+/*-------------------------------------------------*/
+/*Accordion by Jonathan Christian @BeYourExcitement*/
+/*-------------------------------------------------*/
+
+.accordion {
+  width: 30%;
+  margin: 5% auto;
+  border: 3px solid #24282c;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.section-header {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: #24282c;
+  color: #afafaf;
+}
+
+.section-header-active {
+  margin: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  background-color: #afafaf;
+  color: #24282c;
+}
+
+.section-header:hover {
+  text-decoration: underline;
+  background-color: #45c5ea;
+  color: #24282c;
+}
+
+.accordion-section {
+  display: none;
+}
+
+.accordion-section-active {
+  display: block;
+  border-top: 4px solid #45c5ea;
+  padding: 0 8px;
+}
