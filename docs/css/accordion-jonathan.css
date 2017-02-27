@@ -2,6 +2,7 @@
 
 .accordion {
   width: 30%;
+  margin: 5% auto;
   border: 3px solid #24282c;
   border-radius: 6px;
   text-align: center;
