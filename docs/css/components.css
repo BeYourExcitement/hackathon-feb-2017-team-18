@@ -70,12 +70,13 @@
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
-  background-color: #afafaf;
-  color: #24282c;
+  background-color: #3F464F;
+  color: #afafaf;
+
+
 }
 
 .section-header:hover {
-  text-decoration: underline;
   background-color: #45c5ea;
   color: #24282c;
 }
